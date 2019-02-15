@@ -1,0 +1,116 @@
+/*this is css*/
+body
+{
+	background: purple;
+}
+.maindiv{
+	background: pink;
+	display: flex;
+	justify-content: space-around;
+	margin: 5%;
+	box-shadow: 4px 4px 4px 4px;
+}
+.leftsubdiv{
+	background: bisque;
+	display: flex ;
+	margin: 5%;
+	border-radius: 6%; 
+	text-align: center;
+}
+.rightsubdiv{
+	background: white;
+	margin: 5%;
+	border-radius: 6%;
+	box-shadow: 4px 4px 4px 4px;
+}
+img{
+	border-radius: 4%;
+	margin: 4%;
+	border-radius: 6%;
+	box-shadow: 4px 4px 4px 4px;
+}
+/*this is mobile view*/
+@media screen and (min-width: 320px) and (max-width: 480px){
+	body
+{
+	background: white;
+}
+.maindiv{
+	background: pink;
+	display:inline-block;
+	justify-content:space-around;
+	margin: 2%;
+	box-shadow: 4px 4px 4px 4px;
+}
+.leftsubdiv{
+	background: bisque;
+	display: inline-block; ;
+	margin: 5%;
+	border-radius: 6%; 
+	text-align: center;
+}
+.rightsubdiv{
+	background: white;
+	width: 90%;
+	border-radius: 6%;
+	box-shadow: 4px 4px 4px 4px;
+}
+table{
+	overflow-x: auto;
+}
+img{
+	border-radius: 4%;
+	margin: 4%;
+	border-radius: 6%;
+	box-shadow: 4px 4px 4px 4px;
+}	
+}
+/*table{*/
+	/*overflow-x: auto;*/
+/*}*/
+/*tablet view*/
+
+@media screen and (min-width: 481px) and (max-width: 730px){
+	body
+{
+	background: white;
+}
+.maindiv{
+	background: bisque;
+	display:inline-block;
+	justify-content:space-around;
+	margin: 2%;
+	box-shadow: 4px 4px 4px 4px;
+}
+.leftsubdiv{
+	background: aqua;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 2%;
+	width: 50%;
+	border-radius: 6%; 
+	text-align: center;
+	padding: 2%;
+}
+.rightsubdiv{
+	background: white;
+	/*margin: 2%;*/
+	/*width: 90%;*/
+	border-radius: 6%;
+	box-shadow: 4px 4px 4px 4px;
+	display: flex;
+	flex-wrap: wrap;
+}
+table{
+	overflow-x: auto;
+}
+img{
+	border-radius: 4%;
+	margin: 4%;
+	border-radius: 6%;
+	box-shadow: 4px 4px 4px 4px;
+}	
+}
+/*table{
+	overflow-x: auto;
+/*}/

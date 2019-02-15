@@ -1,0 +1,47 @@
+{
+"profile":{
+	"img":"images.png",
+	"name":"Hepzibah.K",
+	"roll":"511",
+	"place":"rajahmundry",
+	"des":"student"
+},
+"career":{
+	"info":"to work in a reputed company"
+},
+"education":[
+{
+	"sno":"1",
+	"degree":"b.tech",
+	"institute":"pragati engineering college",
+	"per":"84",
+	"yop":"2021"
+},
+{
+	"sno":"2",
+	"degree":"intermediate",
+	"institute":"tirumala junior college",
+	"per":"98",
+	"yop":"2017"
+},
+{
+	"sno":"3",
+	"degree":"s.s.c",
+	"institute":"sri gowthami smart school",
+	"per":"95",
+	"yop":"2015"
+}
+],
+"languages":[
+{
+	"lang":"english"
+
+},
+{
+	"lang":"hindi"
+},
+{
+	"lang":"telugu"
+}
+]
+}

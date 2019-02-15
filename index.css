@@ -1,0 +1,83 @@
+body{
+	background: purple;
+}
+.maindiv{
+	background: #89cccd;
+	display: flex;
+	justify-content: space-around;
+	margin: 5%;
+	border-radius: 4%;
+}
+.subdiv{
+	background: violet;
+	margin: 4%;
+	width: 25%;
+	border-radius: 4%;
+	text-align: center;
+	box-shadow: 4px 4px 4px 4px;
+}
+img{
+	height: 40%;
+	width: 70%;
+	margin: 5%;
+	border-radius: 5%;
+}
+/*mobile view*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
+body{
+	background: purple;
+}
+.maindiv{
+	background: #89cccd;
+	display: inline-block;
+	justify-content: space-around;
+	margin: 2%;
+	border-radius: 4%;
+	width: 96%;
+}
+.subdiv{
+	background: violet;
+	margin: 2%;
+	width: 92%;
+	border-radius: 3%;
+	text-align: center;
+	box-shadow: 4px 4px 4px 4px;
+	padding: 2%;
+}
+img{
+	height: 30%;
+	width: 50%;
+	margin: 3%;
+	border-radius: 15%;
+}	
+}
+/*tablet view*/
+@media screen and (min-width: 481px) and (max-width: 680px) {
+body{
+	background:white;
+}
+.maindiv{
+	background: pink;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 2%;
+	border-radius: 4%;
+	width: 96%;
+}
+.subdiv{
+	background: bisque;
+	margin: 2%;
+	width: 40%;
+	border-radius: 3%;
+	text-align: center;
+	box-shadow: 4px 4px 4px 4px;
+	padding: 2%;
+}
+img{
+	height: 30%;
+	width: 50%;
+	margin: 3%;
+	border-radius: 15%;
+}	
+}
